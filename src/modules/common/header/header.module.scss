@@ -1,0 +1,14 @@
+@import '../../../styles/settings.scss';
+
+.header {
+  height: $header_height_mobile;
+
+  @media (min-width: $tablet) {
+    height: $header_height;
+  }
+}
+
+.logo {
+  height: 100%;
+  width: auto;
+}
