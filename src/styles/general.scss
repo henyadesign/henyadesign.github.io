@@ -13,3 +13,12 @@ body {
     box-sizing: border-box;
   }
 }
+
+.portfolio {
+  padding-block-start: $header_height_mobile;
+  height: 1000vh;
+
+  @media (min-width: $tablet) {
+    padding-block-start: $header_height;
+  }
+}
