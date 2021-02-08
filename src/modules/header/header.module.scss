@@ -1,7 +1,8 @@
-@import '../../../styles/settings.scss';
+@import '../../styles/settings.scss';
 
 .header {
   position: fixed;
+  z-index: 100;
   top: 0;
   left: 0  ;
   display: flex;
@@ -10,7 +11,8 @@
   width: 100%;
   height: $header_height_mobile;
   padding: 0 1rem;
-  box-shadow: 0px 3px 6px #00000029;
+  background: $white;
+  box-shadow: 0px 3px 6px $shadow;
 
   @media (min-width: $tablet) {
     height: $header_height;

@@ -9,17 +9,17 @@ import {
   linkedinHref,
   facebookHref,
   mailHref,
-} from '../../../config/constants';
+} from '../../config/constants';
 
 import styles from './header.module.scss';
 
-import logo from '../../../logo.svg';
+import logo from '../../logo.svg';
 
 import BurgerMenu from '../burger_menu/BurgerMenu';
 
-import LinkedinIcon from '../../../assets/icons/LinkedinIcon';
-import FacebookIcon from '../../../assets/icons/FacebookIcon';
-import MailIcon from '../../../assets/icons/MailIcon';
+import LinkedinIcon from '../../assets/icons/LinkedinIcon';
+import FacebookIcon from '../../assets/icons/FacebookIcon';
+import MailIcon from '../../assets/icons/MailIcon';
 
 const Header: React.FC = () => {
   const isMobile = useMediaQuery({

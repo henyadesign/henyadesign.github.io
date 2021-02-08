@@ -8,12 +8,12 @@ import {
   facebookHref,
   whatsAppHref,
   mailHref,
-} from '../../../config/constants';
+} from '../../config/constants';
 
-import LinkedinIcon from '../../../assets/icons/LinkedinIcon';
-import FacebookIcon from '../../../assets/icons/FacebookIcon';
-import MailIcon from '../../../assets/icons/MailIcon';
-import WhatsAppIcon from '../../../assets/icons/WhatsAppIcon';
+import LinkedinIcon from '../../assets/icons/LinkedinIcon';
+import FacebookIcon from '../../assets/icons/FacebookIcon';
+import MailIcon from '../../assets/icons/MailIcon';
+import WhatsAppIcon from '../../assets/icons/WhatsAppIcon';
 
 import styles from './burger_menu.module.scss';
 
@@ -51,7 +51,7 @@ const BurgerMenu: React.FC = () => {
         distance="sm"
         size={48}
         label="Show menu"
-        color="#707070"
+        color="#414040"
         rounded
       />
       {isOpen && (

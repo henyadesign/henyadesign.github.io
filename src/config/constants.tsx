@@ -8,3 +8,6 @@ export const linkedinHref = 'https://www.linkedin.com/in/henyaadler/';
 export const facebookHref = 'https://www.facebook.com/henyadesign';
 export const whatsAppHref = 'https://wa.me/972587782776';
 export const mailHref = 'mailto:henyadesign@gmail.com';
+
+// Cloudinary
+export const cloudName = 'henya-design';

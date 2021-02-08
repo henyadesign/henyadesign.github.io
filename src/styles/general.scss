@@ -7,7 +7,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
+  letter-spacing: 0.05em;
   background: $white;
+  -webkit-tap-highlight-color: transparent;
 
   * {
     box-sizing: border-box;
@@ -15,10 +17,5 @@ body {
 }
 
 .portfolio {
-  padding-block-start: $header_height_mobile;
-  height: 1000vh;
-
-  @media (min-width: $tablet) {
-    padding-block-start: $header_height;
-  }
+  //
 }

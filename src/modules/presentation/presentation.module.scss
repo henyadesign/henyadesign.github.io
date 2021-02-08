@@ -1,0 +1,57 @@
+@import '../../styles/settings.scss';
+
+$padding_desktop: calc(#{$header_height} * 2);
+$padding_tablet: calc(#{$header_height} + 2rem);
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-block-start: $header_height_mobile;
+
+  @media (min-width: $tablet) {
+    padding: $padding_tablet;
+    padding-block-start: calc(#{$header_height} + #{$padding_tablet});
+  }
+
+  @media (min-width: $large_desktop) {
+    padding: $padding_desktop;
+    padding-block-start: calc(#{$header_height} + #{$padding_desktop});
+  }
+}
+
+.heading {
+  width: 100%;
+  margin: 0;
+  padding: 2rem 1rem 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: $grey;
+
+  @media (min-width: $tablet) {
+    display: flex;
+    align-items: center;
+    width: 65%;
+    padding: 0;
+    padding-inline-end: $header_height;
+    font-size: 2rem;
+    text-align: start;
+  }
+
+  @media (min-width: $desktop) {
+    font-size: 3rem;
+  }
+
+  @media (min-width: $large_desktop) {
+    font-size: 5rem;
+  }
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+
+  @media (min-width: $tablet) {
+    width: 35%;
+  }
+}
